@@ -33,7 +33,9 @@ span a {
     padding-left: 25px;
 }
 
-.fa-arrow-right{
+/* Styling left arrow  */
+
+.fa-arrow-right {
     margin-left: 15px;
 }
 
@@ -89,7 +91,7 @@ span a {
     row-gap: 30px;
     width: 80%;
     margin-left: 130px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 
 
 
@@ -134,4 +136,44 @@ span a {
 
 .rating-space {
     padding-left: 10px;
+}
+
+/* Left Side arrow */
+.see-more a {
+    text-decoration: none;
+    color: #E02C6D;
+   margin-left:1050px;
+   
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style on Footer Section */
+
+.footer-container {
+    background-color: #0A0826;
+
+    height: 200px;
+
+}
+
+.footer-section {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px;
+    line-height: 25px;
+
 }
