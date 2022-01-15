@@ -225,11 +225,39 @@ span a {
         
         display: flex;
         flex-direction: column;
-        margin: 0%;
+        margin: 10%;
     }
 
     .see-more a{
-        margin-left: 150px;
+        margin-left: 200px;
+        
     }
 
+}
+
+
+/* For  Tablet */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    
+    .second-container , .first-container , .see-more a{
+        max-width: 100%;
+    }
+    
+    .first-container {
+
+        flex-direction: column;
+    }
+    
+    .second-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 10%;
+    }
+
+
+    .see-more a {
+        margin-left: 500px;
+        
+    }
 }
