@@ -160,7 +160,7 @@ span a {
 .see-more a {
     text-decoration: none;
     color: #E02C6D;
-    margin-left: 1050px;
+    margin-left: 900px;
 
 
 
@@ -168,7 +168,34 @@ span a {
 }
 
 
+/* Styling starbucks  */
 
+.star-container{
+    display: flex;
+    background-color:#f2f0eb;
+    
+   
+}
+
+
+.star-info{
+    margin: 90px;
+    line-height: 30px;
+    padding-left: 20px;
+    
+}
+.star-image img{
+    width:500px;
+    height:400px;
+   
+}
+
+.star-btn{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 6px 20px;
+    margin: 20px;
+}
 
 
 
@@ -229,7 +256,7 @@ span a {
     }
 
     .see-more a{
-        margin-left: 200px;
+        margin-left: 250px;
         
     }
 
