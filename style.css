@@ -186,7 +186,7 @@ span a {
 }
 .star-image img{
     width:500px;
-    height:400px;
+    height:300px;
    
 }
 
@@ -259,6 +259,14 @@ span a {
         margin-left: 250px;
         
     }
+    .star-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .star-image img{
+        width: 100%;
+    }
 
 }
 
@@ -286,5 +294,15 @@ span a {
     .see-more a {
         margin-left: 500px;
         
+    }
+
+
+    .star-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .star-image img{
+        width: 80%;
     }
 }
