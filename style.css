@@ -212,7 +212,7 @@ span a {
 
 @media only screen and (max-width:688px) {
 
-    .second-container {
+    .second-container , .first-container , .see-more a{
         max-width: 100%;
     }
 
@@ -222,6 +222,14 @@ span a {
     }
 
     .second-container {
-        grid-template-columns: repeat(1, 1fr);
+        
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
     }
+
+    .see-more a{
+        margin-left: 150px;
+    }
+
 }
