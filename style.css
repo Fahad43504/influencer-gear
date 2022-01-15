@@ -1,0 +1,74 @@
+/* Common style */
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+/* Import google font */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Charm&family=Lobster&family=Poppins:wght@500&family=Raleway:wght@500;600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Style on header section */
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+span a {
+    text-decoration: none;
+    margin: 25px;
+}
+
+.fas {
+    padding-left: 25px;
+}
+
+/* first section */
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+}
+
+.main-image {
+    width: 440px;
+    height: 414px;
+}
+
+.main-image:hover{
+    transform: rotate(360deg);
+    transition:transform 3s ease-in-out;
+}
+
+.first-info{
+    margin-left: 100px;
+    
+    line-height: 45px;
+}
+.text1{
+    line-height: 24px;
+}
+
+
+.button-btn{
+    border: 1px solid pink;
+    padding: 10px 24px;
+    background-color: 
+    #E02C6D;
+    border-radius: 41px;
+    color: white;
+    margin-top: 20px;
+    
+}
